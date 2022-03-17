@@ -55,7 +55,6 @@ export default function Map() {
           <PText>Austin, TX</PText>
           <a
             href="https://www.google.com/maps/place/Austin,+TX/@30.3074624,-98.0335934,10z/data=!3m1!4b1!4m5!3m4!1s0x8644b599a0cc032f:0x5d9b464bd469d57a!8m2!3d30.2671478!4d-97.7430439"
-            target="_blank"
             className="map_card_link"
           >
             Open in Google Maps
