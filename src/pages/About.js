@@ -1,6 +1,5 @@
 import React from "react";
 import PText from "../components/PText";
-import Button from "../components/Button";
 import aboutPageImg from "../images/aboutPageImg.png";
 import styled from "styled-components";
 import AboutInfoItem from "../components/AboutInfoItem";
@@ -60,6 +59,19 @@ const AboutPageStyles = styled.div`
     text-transform: uppercase;
     color: white;
   }
+  button {
+    font-family: "Roboto Mono", monospace;
+    font-size: 2.2rem;
+    background-color: ${(props) =>
+      props.outline ? "transparent" : "var(--gray-1)"};
+    padding: 0.7em 2em;
+    border-radius: 10px;
+    display: inline-block;
+    border: 2px solid var(--gray-1);
+    border: none;
+    color: ${(props) => (props.outline ? "var(--gray-1)" : "black")};
+  }
+
   @media only screen and (max-width: 768px) {
     padding: 10rem 0;
     .top-section {
@@ -75,6 +87,9 @@ const AboutPageStyles = styled.div`
     .about__info__heading {
       font-size: 3rem;
     }
+    .resumeButton {
+      font-size: 1.8rem;
+    }
   }
 `;
 
@@ -89,7 +104,7 @@ export default function About() {
                 Hi, I am <span>Caitlin Talbert</span>
               </p>
               <h2 className="about_heading">
-                A full stack web developer and designer
+                A frontend web developer and designer
               </h2>
               <div className="about_info">
                 <PText>
@@ -103,14 +118,17 @@ export default function About() {
                   loved it! I enjoy problem solving, designing, and critical
                   thinking (and also not interacting with a lot of people).. so
                   coding has been a perfect fit for me. <br />
-                  As my time at BloomTech progressed I realized that I am also
-                  very interested in web design, so on the side I am working on
-                  a web design certification. So far I am enjoying this new part
-                  of my life and I look forward to my future as a full stack web
-                  developer/ web designer!
+                  So far I am enjoying this new part of my life and I look
+                  forward to my future as a frontend web developer & UX
+                  designer!
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+
+              <a href="./resume.pdf" download="resume.pdf">
+                <button type="submit">
+                  <b>Download Resume</b>
+                </button>
+              </a>
             </div>
             <div className="right">
               <img src={aboutPageImg} alt="img of me" />
@@ -125,9 +143,7 @@ export default function About() {
               />
               <AboutInfoItem
                 title="Web Development Certifications"
-                items={[
-                  "Bloom Institute of Technology, FreeCodeCamp, Codecademy",
-                ]}
+                items={["Full Stack Web Development"]}
               />
               <AboutInfoItem
                 title="Web Design Certifications"
@@ -141,18 +157,26 @@ export default function About() {
                 items={["HTML, CSS, JavaScript, React, Redux"]}
               />
               <AboutInfoItem title="Back End" items={["Node, Express, SQL"]} />
-              <AboutInfoItem title="Design" items={["Figma, AdobeXD, 3D"]} />
+              <AboutInfoItem title="Design" items={["Figma, Adobe XD"]} />
             </div>
             <div className="about_info_item">
               <h1 className="about_info_heading">Experiences</h1>
               <AboutInfoItem
-                title="Build Week Teams"
+                title="Team Projects"
+                items={["CoderHeroes, JounceIn, AnywhereFit"]}
+              />
+              <AboutInfoItem
+                title="Frontend"
                 items={[
-                  "Worked in teams of 6 people and created front-end work",
+                  "Developed Sign-up, Login, Logout, and mobile responsiveness",
                 ]}
               />
-              <AboutInfoItem title="Back End" items={["Built APIs"]} />
-              <AboutInfoItem title="Design" items={["Freelance Designer"]} />
+              <AboutInfoItem
+                title="Design"
+                items={[
+                  "Re-designed admin flow, checkout page, and general layout and flow",
+                ]}
+              />
             </div>
           </div>
         </div>

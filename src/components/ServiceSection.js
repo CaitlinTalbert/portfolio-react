@@ -27,23 +27,23 @@ export default function ServiceSection() {
   return (
     <ServicesItemStyles>
       <div className="container">
-        <SectionTitle heading="Services" subheading="what I can do for you" />
+        <SectionTitle heading="Skills" subheading="" />
 
         <div className="services_allItems">
           <ServicesSectionItem
             icon={<MdDesktopMac />}
-            title="Web Design"
-            desc="I design websites using figma, UX/UI design, etc."
+            title="UX Design"
+            desc="I can design websites using Figma and Adobe XD to optimize the interaction between humans and the products. My role as a designer is make a product that is usable, enjoyable, and accessible. "
           />
           <ServicesSectionItem
             icon={<MdCode />}
             title="Web Development"
-            desc="I am experienced in full stack web development, including front end and back end development. I know HTML, CSS, JavaScript, React, Redux, SQL, and python."
+            desc="I am experienced in full stack web development, but my passions lie with frontend development. I write code with HTML, CSS, JavaScript and React. I love frontend development because it allows me to express my love for problem solving and creativity."
           />
           <ServicesSectionItem
             icon={<MdPhonelinkSetup />}
-            title="Add Development"
-            desc="Including design and functionality of app development"
+            title="Communication & Team Work"
+            desc="At my time at BloomTech learning development, I have learned that the most important part of working with other people is communication. As a developer, I often work with cross-functional teams where team work and communication is un-avoidable. It is a skill that continues to improve and must always be worked on."
           />
         </div>
       </div>

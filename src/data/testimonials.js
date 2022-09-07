@@ -1,24 +1,24 @@
 const testimonials = [
   {
     id: 1,
-    name: "Sean McEachern",
-    title: "Data Scientist",
-    org: "EXOS",
-    desc: "Caitlin is a person of commitment. She is really good at what she does. I really like her work. Especially the unique point of view of designing.",
+    name: "Duis aute",
+    title: "Excepteur sint",
+    org: "Ut enim",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 2,
-    name: "Nicholas Talbert",
-    title: "Physicist",
-    org: "Secret military Company",
-    desc: "Really amazing communication skills. Always understand what I am trying to achieve. Also, her work is really amazing. Does really high-quality work.",
+    name: "Duis aute",
+    title: "Excepteur sint",
+    org: "Ut enim",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 3,
-    name: "Murrey Talbert",
-    title: "hmmmm",
-    org: "....",
-    desc: "cool. luv it",
+    name: "Duis aute",
+    title: "Excepteur sint",
+    org: "Ut enim",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];
 export default testimonials;

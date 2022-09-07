@@ -61,14 +61,14 @@ export default function Footer() {
         <div className="footer_col1">
           <h1 className="footer_col1_title">Caitlin Talbert</h1>
           <PText>
-            A full stack web developer and design from Austin, TX. I am
-            passionate about web design and coding. I always make websites that
-            have unique designs and a perfect performance rate.
+            A frontend web developer and designer passionate about minimal and
+            clean designs, functional aesthetic websites, and building something
+            that is useful and enjoyable for everyone.
           </PText>
         </div>
         <div className="footer_col2">
           <FooterCol
-            heading="Important Links"
+            heading="Navigation"
             links={[
               {
                 title: "Home",
@@ -134,7 +134,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container">
-          <PText>2022 - Caitlin Talbert</PText>
+          {/* <PText>2022 - Caitlin Talbert</PText> */}
         </div>
       </div>
     </FooterStyles>

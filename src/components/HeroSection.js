@@ -154,9 +154,8 @@ export default function HeroSection() {
           </div>
           <div className="hero_info">
             <PText>
-              I am a full stack web developer based in Austin, TX. I am
-              passionate about design and creating minimalistic, interactive web
-              experiences.
+              I am a frontend web developer based in Austin, TX. I enjoy
+              building and maintaining functional and aesthetic websites.
             </PText>
             <Button btnLink="/projects" btnText="see my work" />
           </div>

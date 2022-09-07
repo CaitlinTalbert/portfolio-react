@@ -84,10 +84,9 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            I am a full stack web developer and designer from Austin, TX. I
-            create professional and creative websites. I love simple,
-            minimalistic designs and always try to include unique views to the
-            users through my designs.
+            I am a frontend web developer and designer from Austin, TX. I have a
+            certification in full stack web development from Bloom Institute of
+            Technology and a UX Design certification from Google.
           </PText>
           <div className="aboutSection_buttons">
             <Button btnLink="/projects" btnText="My Work" />
