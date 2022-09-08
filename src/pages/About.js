@@ -124,7 +124,7 @@ export default function About() {
                 </PText>
               </div>
 
-              <a href="./resume.pdf" download="resume.pdf">
+              <a href="./WebDev_Resume.pdf" download="WebDev_Resume.pdf">
                 <button type="submit">
                   <b>Download Resume</b>
                 </button>
