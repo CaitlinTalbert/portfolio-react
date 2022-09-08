@@ -45,14 +45,11 @@ export default function ProjectItem({
   img = portfolioImg,
   title = "Project Name",
   desc = "Lorem ipsum",
-  link = projects.link,
 }) {
   return (
     <ProjectItemStyles>
       <Link to="/projects" className="projectItem_img">
-        <a href={link}>
-          <img src={img} alt="portfolio img" />
-        </a>
+        <img src={img} alt="portfolio img" />
       </Link>
       <div className="projectItem_info">
         <h3 className="projectsItem_title">{title}</h3>
