@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import portfolioImg from "../images/portfolioImg.png";
 import styled from "styled-components";
-import projects from "../data/projects";
 
 const ProjectItemStyles = styled.div`
   .projectItem_img {
